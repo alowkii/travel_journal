@@ -1,0 +1,87 @@
+body, #root, * {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  box-sizing: border-box;
+}
+
+header{
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+}
+
+header > img{
+  width: 2rem;
+  height: 2rem;
+}
+
+header > h1{
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+main > .location {
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  margin-top: 2rem;
+}
+
+main > .location > .location-image{
+  height: 15rem;
+  width: 27rem;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+main > .location > .location-info {
+  display: flex;
+  flex-direction: column;
+}
+
+main > .location > .location-info > div {
+  display: flex;
+}
+
+main > .location > .location-info > div > p{
+  letter-spacing: .2rem;
+  margin-left: 0.4rem;
+}
+
+main > .location > .location-info > div > .marker-icon{
+  color: red;
+  margin: 0;
+}
+
+main > .location > .location-info > div > a{
+  color: gray;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+
+main > .location > .location-info > h1 {
+  margin: 0.5rem 0;
+}
+
+main > .location > .location-info > h6 {
+  margin: 0;
+}
+
+main > .location > .location-info > p {
+  margin-top: 0.8rem;
+}
